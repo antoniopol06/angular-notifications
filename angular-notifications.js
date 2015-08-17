@@ -27,9 +27,8 @@ angular.module('angularNotifications', [])
       el.innerHTML = template;
       if(settings.canUrl){
         template = template + " href='" + settings.url + "'";
-      }else{
-        template = template + ">";
       }
+      template = template + ">";
       if(settings.image){
         template = template + "<img class='img-notification' src='" + settings.srcImage + "'/><div class='inline-block'>";
       }else{
