@@ -26,7 +26,7 @@ angular.module('angularNotifications', [])
         template = "<a class='notification " + settings.animation + " " + settings.backgroundColor + " " + settings.color + "'";
       el.innerHTML = template;
       if(settings.canUrl){
-        template = template + " href='" + settings.url + ">'";
+        template = template + " href='" + settings.url + "'";
       }else{
         template = template + ">";
       }
