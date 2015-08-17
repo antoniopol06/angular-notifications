@@ -1,0 +1,145 @@
+#notifications{
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.notification{
+  padding:16px;
+  width:300px;
+  margin:5px 0px;
+  position:relative;
+  display: block;
+}
+
+.img-notification{
+  display: inline-block;
+  vertical-align: top;
+  width:65px;
+  margin-right: 5px;
+}
+
+.inline-block{
+  display: inline-block;
+  vertical-align: top;
+  width:230px;
+}
+
+.title-notification{
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.top-right{
+  top:0px;
+  right:0px;
+}
+
+.top-left{
+  top:0px;
+  left:0px;
+}
+
+.bottom-left{
+  bottom: 0px;
+  left:0px;
+}
+
+.bottom-right{
+  bottom: 0px;
+  right:0px;
+}
+
+.close-notification{
+  position: absolute;
+  top:2px;
+  right:2px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+/*COLORS*/
+.white{
+  color:#fff;
+}
+
+.black{
+  color: #000;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+.bg-black{
+  background-color: #000;
+}
+/*end colors*/
+
+/*SLIDE IN*/
+.slide-in-right{
+  -webkit-animation: slideInRight 1s;
+  right:5px;
+}
+
+@-webkit-keyframes slideInRight{
+    0%{
+      right:-300px;
+    }
+
+    60%, 100%{
+      right: 5px;
+    }
+
+    40%, 80%{
+      right: 10px;
+    }
+}
+
+.slide-in-left{
+  -webkit-animation: slideInLeft 1s;
+  left:5px;
+}
+
+@-webkit-keyframes slideInLeft{
+    0%{
+      left:-300px;
+    }
+
+    60%, 100%{
+      left: 5px;
+    }
+
+    40%, 80%{
+      left: 10px;
+    }
+}
+
+/*END SLIDE IN*/
+
+/*ESCALE*/
+.scale{
+  -webkit-animation: scaleAnimation 1s;
+  right:5px;
+  -webkit-transform: scale(1);
+}
+
+@-webkit-keyframes scaleAnimation{
+    0%{
+      -webkit-transform: scale(0.25)
+    }
+
+    60%, 100%{
+      -webkit-transform: scale(1);
+    }
+
+    80%{
+      -webkit-transform: scale(0.9);
+    }
+}
+/*ESCALE*/
