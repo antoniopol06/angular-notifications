@@ -14,7 +14,7 @@
 
 * HTML BODY
 ```
-<div id="notifications">
+<div id="notifications"></div>
 <script src="[path_angular]"></script>
 <script src="[path_angular-notifications]"></script>
 
